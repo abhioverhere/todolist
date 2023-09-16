@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/todo.css">
+</head>
+<body background="./assets/bg-main.jpg" 
+      style="background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="./todo.html">My Todos</a>
+            <a class="nav-link" href="./index.html">Log Out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /NAVBAR -->
+    <h1 style="text-align: center; margin-top: 25px; font-family:Quicksand;">Hello admin!</h1>
+    <h4 style="text-align: center; font-family:Quicksand;"><i>Time is the most precious resource we have... Let's put that to use- The right way!</i></h4>
+    <div class="container">
+      <div class="clock">
+        <a href="https://logwork.com/current-time-in-kochi-india-kerala" class="clock-widget-text" data-timezone="Asia/Kolkata" data-language="en" data-textcolor="#000000" data-digitscolor="#000000">Kerala, India</a>
+      </div>
+    </div>
+    <h4 style="text-align: center; font-family:Quicksand;">Please click on <a class="lil" href="./todo.html" role="button">'My Todos'</a> to see your list of tasks.</h4>
+    
+
+
+    <!-- BOOTSTRAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.logwork.com/widget/text.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
