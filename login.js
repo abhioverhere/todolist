@@ -85,7 +85,7 @@ function resetUser(){
 }
 function resetPass(){
     pass.style.border="";
-    passCheck.innerText=""
+    passCheck.innerText="";
 }
 
 // VALIDATION
